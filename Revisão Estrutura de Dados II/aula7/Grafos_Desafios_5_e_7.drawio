@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="des5" name="Desafio 5 - Isomorfismo">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="600" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="t" value="Desafio 5: G e H são isomorfos" style="text;html=1;align=left;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="500" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="tg" value="G: E = {(1,2),(2,3),(3,4),(4,1)}" style="text;html=1;align=left;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="300" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="g1" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="g2" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="g3" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="260" y="290" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="g4" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="ge1" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="g1" target="g2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ge2" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="g2" target="g3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ge3" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="g3" target="g4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ge4" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="g4" target="g1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="th" value="H: E = {(a,c),(c,b),(b,d),(d,a)}" style="text;html=1;align=left;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="470" y="60" width="300" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="ha" value="a" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600" y="100" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="hc" value="c" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="720" y="200" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="hb" value="b" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="hd" value="d" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="he1" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="ha" target="hc"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="he2" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="hc" target="hb"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="he3" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="hb" target="hd"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="he4" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="hd" target="ha"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="m" value="Correspondência f: 1→a, 2→c, 3→b, 4→d&#xa;(1,2)→(a,c) ✓  (2,3)→(c,b) ✓  (3,4)→(b,d) ✓  (4,1)→(d,a) ✓&#xa;Sequência de graus: (2,2,2,2) nos dois grafos. Conclusão: isomorfos." style="text;html=1;align=left;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="720" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="des7" name="Desafio 7 - Sequência de graus">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="600" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="t" value="Desafio 7: sequência (1, 1, 2, 3, 3, 4, 4, 6)" style="text;html=1;align=left;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="600" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="A" value="A&#xa;(6)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="B" value="B&#xa;(4)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="80" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="C" value="C&#xa;(4)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="330" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="D" value="D&#xa;(3)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="700" y="120" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="E" value="E&#xa;(3)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="700" y="290" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="F" value="F&#xa;(2)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H" value="H&#xa;(1)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="G" value="G&#xa;(1)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="eAB" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="A" target="B"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eAC" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="A" target="C"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eAD" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="A" target="D"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eAE" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="A" target="E"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eAF" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="A" target="F"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eAG" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="A" target="G"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eBC" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="B" target="C"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eBD" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="B" target="D"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eBE" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="B" target="E"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eCD" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="C" target="D"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eCE" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="C" target="E"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eFH" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="F" target="H"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="m" value="E = {(A,B),(A,C),(A,D),(A,E),(A,F),(A,G),(B,C),(B,D),(B,E),(C,D),(C,E),(F,H)}&#xa;Soma dos graus = 24 | Arestas = 12 | 24 = 2 × 12 ✓" style="text;html=1;align=left;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
