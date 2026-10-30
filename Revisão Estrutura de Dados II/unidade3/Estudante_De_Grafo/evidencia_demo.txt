@@ -1,0 +1,48 @@
+Vértices: 9 | Arestas: 13
+
+=== Cenário A — rede íntegra ===
+BFS: Brasília → Goiânia → São Paulo → Curitiba  [3 aresta(s)]
+DFS: Brasília → Goiânia → São Paulo → Belo Horizonte → Rio de Janeiro → Curitiba  [5 aresta(s)]
+  -> DFS achou um caminho 2 aresta(s) mais longo que o BFS.
+
+=== Cenário B — bloqueio Goiânia–São Paulo ===
+BFS: Brasília → Goiânia → Campo Grande → Curitiba  [3 aresta(s)]
+DFS: Brasília → Goiânia → Campo Grande → Curitiba  [3 aresta(s)]
+
+=== Cenário C — Goiânia–São Paulo + Campo Grande–Curitiba ===
+BFS: Brasília → Belo Horizonte → Rio de Janeiro → Curitiba  [3 aresta(s)]
+DFS: Brasília → Belo Horizonte → Rio de Janeiro → São Paulo → Curitiba  [4 aresta(s)]
+  -> DFS achou um caminho 1 aresta(s) mais longo que o BFS.
+
+=== Cenário D — Brasília isolada (as duas saídas bloqueadas) ===
+BFS: sem caminho no modelo
+DFS: sem caminho no modelo
+
+=== Cenário E — Brasília → Porto Alegre ===
+BFS: Brasília → Goiânia → São Paulo → Curitiba → Porto Alegre  [4 aresta(s)]
+DFS: Brasília → Goiânia → São Paulo → Belo Horizonte → Rio de Janeiro → Curitiba → Florianópolis → Porto Alegre  [7 aresta(s)]
+  -> DFS achou um caminho 3 aresta(s) mais longo que o BFS.
+
+=== Cenário F — mesma rede, vizinhos em ordem invertida ===
+BFS: Brasília → Belo Horizonte → São Paulo → Curitiba  [3 aresta(s)]
+DFS: Brasília → Belo Horizonte → São Paulo → Curitiba  [3 aresta(s)]
+
+=== Bloqueio de UMA conexão por vez (Brasília → Curitiba) ===
+Conexão bloqueada                   BFS  DFS
+Belo Horizonte – Brasília             3    5
+Belo Horizonte – Rio de Janeiro       3    4
+Belo Horizonte – São Paulo            3    4
+Brasília – Goiânia                    3    6
+Campo Grande – Curitiba               3    5
+Campo Grande – Goiânia                3    5
+Curitiba – Florianópolis              3    5
+Curitiba – Porto Alegre               3    5
+Curitiba – Rio de Janeiro             3    3
+Curitiba – São Paulo                  3    5
+Florianópolis – Porto Alegre          3    5
+Goiânia – São Paulo                   3    3
+Rio de Janeiro – São Paulo            3    5
+
+Pergunta de pesquisa: bastam 2 conexões bloqueadas para isolar Brasília de Curitiba.
+Exemplo de corte mínimo: [('Belo Horizonte', 'Brasília'), ('Brasília', 'Goiânia')]
+Grafo original preservado após todas as simulações.

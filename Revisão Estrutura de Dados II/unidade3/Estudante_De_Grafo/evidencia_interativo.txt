@@ -1,0 +1,17 @@
+SIMULAÇÃO DIDÁTICA — não representa rotas reais.
+
+Cidades: Belo Horizonte, Brasília, Campo Grande, Curitiba, Florianópolis, Goiânia, Porto Alegre, Rio de Janeiro, São Paulo
+Origem:   Cidade inexistente na rede. Opções: Belo Horizonte, Brasília, Campo Grande, Curitiba, Florianópolis, Goiânia, Porto Alegre, Rio de Janeiro, São Paulo
+Origem: Destino: 
+=== Rede íntegra ===
+BFS: Brasília → Goiânia → São Paulo → Curitiba  [3 aresta(s)]
+DFS: Brasília → Goiânia → São Paulo → Belo Horizonte → Rio de Janeiro → Curitiba  [5 aresta(s)]
+  -> DFS achou um caminho 2 aresta(s) mais longo que o BFS.
+
+Informe conexões a bloquear (ENTER vazio para terminar).
+  Bloquear — cidade 1:   Bloquear — cidade 2:   Bloqueada: Goiânia–São Paulo
+  Bloquear — cidade 1:   Bloquear — cidade 2:   Bloqueada: Brasília–Belo Horizonte
+  Bloquear — cidade 1: 
+=== Rede com bloqueios: Goiânia–São Paulo, Brasília–Belo Horizonte ===
+BFS: Brasília → Goiânia → Campo Grande → Curitiba  [3 aresta(s)]
+DFS: Brasília → Goiânia → Campo Grande → Curitiba  [3 aresta(s)]
