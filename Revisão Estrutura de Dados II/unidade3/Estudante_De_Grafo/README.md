@@ -3,8 +3,6 @@
 **Disciplina:** Estrutura de Dados II — Ciência da Computação
 **Estudo de caso:** pane relacionada ao GPS e impactos em voos no Aeroporto de Brasília (G1, 22 set. 2026)
 
-> **Aviso:** simulação computacional didática. A notícia apenas motiva o problema; as conexões e os bloqueios são **fictícios** e não representam rotas aéreas reais nem servem para orientar navegação ou voos.
-
 ## Conteúdo da entrega
 | Arquivo | Descrição |
 |---|---|
